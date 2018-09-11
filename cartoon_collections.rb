@@ -13,6 +13,7 @@ def summon_captain_planet(veggies)
     arr.push(veggies[counter].upcase + "!")
     counter += 1
  end
+  arr
 end
 
 def long_planeteer_calls# code an argument here
