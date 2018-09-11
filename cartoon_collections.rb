@@ -12,6 +12,7 @@ def summon_captain_planet(veggies)
   while counter < veggies.length
     veggie = "#{veggies(counter)}!"
     arr.push(veggie)
+    counter += 1
  end
 end
 
