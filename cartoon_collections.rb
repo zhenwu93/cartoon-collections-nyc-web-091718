@@ -10,7 +10,7 @@ def summon_captain_planet(veggies)
   arr = []
   counter = 0
   while counter < veggies.length
-    arr.push(veggies[counter].upcase + "!")
+    arr.push(veggies[counter].capitalize + "!")
     counter += 1
  end
   arr
